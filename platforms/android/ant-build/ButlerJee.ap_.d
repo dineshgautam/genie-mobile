@@ -235,9 +235,13 @@
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes/default/images/icons-svg/video-black.svg \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes/default/images/icons-svg/video-white.svg \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/img/logo.png \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/img/logo_cordova.png \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/index.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/jquery.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/jquery.mobile-1.4.1.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/jquery.mobile-1.4.1.min.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/jquery.mobile-1.4.1.min.map \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/restaurant.js \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/restaurant.json \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/testdata.json \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/ant-build/AndroidManifest.xml \

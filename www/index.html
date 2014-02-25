@@ -16,26 +16,58 @@
 <div data-role="page">
 
 	<div data-role="header" class="ui-state-persist">
-        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
-        <a href="#add-form" data-icon="gear" data-iconpos="notext">Options</a>
+        <a href="#nav-panel" data-icon="bullets" data-iconpos="notext">Menu</a>
+        <a href="#add-form" data-icon="shop" data-iconpos="notext">Cart</a>
 		<h1>Butler Jee</h1>
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		<ul data-role="listview" data-filter="true" data-filter-placeholder="Search restaurants..." data-inset="true">
+		<ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search restaurants..." data-inset="true">
 		    <li><a href="#">Bombay Bistro</a></li>
 		    <li><a href="#">Bombay Bites</a></li>
 		    <li><a href="#">Dominos</a></li>
 		    <li><a href="#">Pizza Hut</a></li>
 		    <li><a href="#">India Palace</a></li>
 		</ul>
+		<!--ul data-role="listview" data-filter="true" data-filter-placeholder="Search restaurants..." data-inset="true">
+		    <li><a href="#">Bombay Bistro</a></li>
+		    <li><a href="#">Bombay Bites</a></li>
+		    <li><a href="#">Dominos</a></li>
+		    <li><a href="#">Pizza Hut</a></li>
+		    <li><a href="#">India Palace</a></li>
+		    <script>
+			($.ajax({
+				      url: './js/testdata.json',
+				      dataType: "jsonp",
+				      method: "get",
+				      success: function (data) {
+				            alert(data);
+				      }
+				}));
+			  /**$.getJSON('./js/testdata.json', function(data) {
+			        var output="";
+			        for (var i in data.users) {
+			            output+="<li>" + data.users[i].fName + " " + data.users[i].lName +"</li>";
+			        }
+
+			        document.getElementById("placeholder").innerHTML=output;
+			  });**/
+		  </script>
+		</ul-->
 	</div><!-- /content -->
 	<div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
 
 		<ul data-role="listview">
-            	<li>My Favourites Restaurants</li>
-                <li>My Favourites Dishs</li>
-                <li>My Locations</li>
+				<li>Butler Jee</li><li/>
+				<li><a href="#search" class="ui-btn ui-icon-search ui-btn-icon-left">Search Restaurants</a></li>
+				<li>Favorites</li><hr>
+				<li><a href="#" class="ui-btn ui-icon-star ui-btn-icon-left">My Restaurants</a></li>
+				<li><a href="#" class="ui-btn ui-icon-heart ui-btn-icon-left">My Dishes</a></li>
+                <li>Settings</li><hr>
+                <li><a href="#" class="ui-btn ui-icon-gear ui-btn-icon-left">App Settings</a></li>
+                <li><a href="#" class="ui-btn ui-icon-user ui-btn-icon-left">Account Settings</a></li>
+                <li><a href="#" class="ui-btn ui-icon-bars ui-btn-icon-left">Edit Locations</a></li>
+
 		</ul>
 
 	</div><!-- /panel -->
