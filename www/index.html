@@ -17,7 +17,7 @@
 
 	<div data-role="header" class="ui-state-persist">
         <a href="#nav-panel" data-icon="bullets" data-iconpos="notext">Menu</a>
-        <a href="#add-form" data-icon="shop" data-iconpos="notext">Cart</a>
+        <a href="#cart" data-icon="shop" data-iconpos="notext">Cart</a>
 		<h1>Butler Jee</h1>
 	</div><!-- /header -->
 
@@ -86,8 +86,32 @@
 		</ul>
 
 	</div><!-- /panel -->
-
-	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="add-form">
+	<div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="cart">
+		<table data-role="table" id="temp-table" data-mode="reflow" class="ui-responsive table-stroke">
+		    <thead>
+		        <tr>
+			      <th data-priority="1">Item</th>
+			      <th data-priority="2">Quantity</th>
+			      <th data-priority="3">Unit Price</th>
+			      <th data-priority="4">Price</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		            <th>Dal Makhani</th>
+		            <td>3</td>
+		            <td>20</td>
+		            <td>60</td>
+		        </tr>
+		        <tr>
+		            <th>Nan</th>
+		            <td>10</td>
+		            <td>5</td>
+		            <td>50</td>
+		        </tr>
+		    </tbody>
+		</table>
+	<!--div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="add-form">
 
         <form class="userform">
 
@@ -105,7 +129,7 @@
 			</div>
         </form>
 
-	</div><!-- /panel -->
+	</div--><!-- /panel -->
 
 	<!--div data-role="footer" class="ui-state-persist">
 		<h4>Footer content</h4>
