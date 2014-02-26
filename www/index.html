@@ -22,13 +22,27 @@
 	</div><!-- /header -->
 
 	<div role="main" class="ui-content">
-		<ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Search restaurants..." data-inset="true">
+		<div class="ui-grid-solo ui-responsive">
+		    <div class="ui-block-a"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-r ui-btn-icon-right">Recent Order</a></div>
+		</div>
+		<div class="ui-grid-solo ui-responsive">
+		    <div class="ui-block-a"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-arrow-r ui-btn-icon-right">Book Table</a></div>
+		</div>
+		<div class="ui-grid-solo ui-responsive">
+		    <div class="ui-block-a"><a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-location ui-btn-icon-right">Near you</a></div>
+		</div>
+		<ul data-role="listview" data-filter="true" data-filter-placeholder="Search restaurants..." data-inset="true">
+			<li data-role="list-divider">My Favorites</li>
 		    <li><a href="#">Bombay Bistro</a></li>
 		    <li><a href="#">Bombay Bites</a></li>
+		    <li data-role="list-divider">Frequently ordered</li>
 		    <li><a href="#">Dominos</a></li>
 		    <li><a href="#">Pizza Hut</a></li>
 		    <li><a href="#">India Palace</a></li>
 		</ul>
+		<script>
+		var json = require('./js/testdata.json');
+		</script>
 		<!--ul data-role="listview" data-filter="true" data-filter-placeholder="Search restaurants..." data-inset="true">
 		    <li><a href="#">Bombay Bistro</a></li>
 		    <li><a href="#">Bombay Bites</a></li>
@@ -59,7 +73,7 @@
 
 		<ul data-role="listview">
 				<li>Butler Jee</li><li/>
-				<li><a href="#search" class="ui-btn ui-icon-search ui-btn-icon-left">Search Restaurants</a></li>
+				<li><a href="#" class="ui-btn ui-icon-search ui-btn-icon-left">Search Restaurants</a></li>
 				<li>Favorites</li><hr>
 				<li><a href="#" class="ui-btn ui-icon-star ui-btn-icon-left">My Restaurants</a></li>
 				<li><a href="#" class="ui-btn ui-icon-heart ui-btn-icon-left">My Dishes</a></li>
@@ -67,6 +81,7 @@
                 <li><a href="#" class="ui-btn ui-icon-gear ui-btn-icon-left">App Settings</a></li>
                 <li><a href="#" class="ui-btn ui-icon-user ui-btn-icon-left">Account Settings</a></li>
                 <li><a href="#" class="ui-btn ui-icon-bars ui-btn-icon-left">Edit Locations</a></li>
+                <li><a href="#" class="ui-btn ui-icon-power ui-btn-icon-left">Logout</a></li>
 
 		</ul>
 

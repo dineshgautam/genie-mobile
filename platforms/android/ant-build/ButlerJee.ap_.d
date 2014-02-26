@@ -17,11 +17,17 @@
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/cordova_plugins.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/img \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/index-top.html \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/index.html \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/index_org.html \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/index.css \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/topcoat-mobile-dark.css \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/topcoat-mobile-dark.min.css \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/topcoat-mobile-light.css \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/topcoat-mobile-light.min.css \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes/default \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes/default/images \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/css/themes/default/jquery.mobile-1.4.1.min.css \
@@ -244,4 +250,9 @@
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/restaurant.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/restaurant.json \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/js/testdata.json \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js \
+/Users/gautam/Documents/github/genie-mobile/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js \
 /Users/gautam/Documents/github/genie-mobile/platforms/android/ant-build/AndroidManifest.xml \
